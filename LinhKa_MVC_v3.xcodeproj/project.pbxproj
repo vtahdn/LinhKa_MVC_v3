@@ -14,6 +14,26 @@
 		FA99BD2321677F210028138C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA99BD2121677F210028138C /* LaunchScreen.storyboard */; };
 		FA99BD2E21677F210028138C /* LinhKa_MVC_v3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA99BD2D21677F210028138C /* LinhKa_MVC_v3Tests.swift */; };
 		FA99BD3921677F210028138C /* LinhKa_MVC_v3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA99BD3821677F210028138C /* LinhKa_MVC_v3UITests.swift */; };
+		FA99BD5621677F2D0028138C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA99BD4721677F2D0028138C /* 1.jpg */; };
+		FA99BD5721677F2D0028138C /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA99BD4821677F2D0028138C /* 10.jpg */; };
+		FA99BD5821677F2D0028138C /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA99BD4921677F2D0028138C /* 11.jpg */; };
+		FA99BD5921677F2D0028138C /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA99BD4A21677F2D0028138C /* 12.jpg */; };
+		FA99BD5A21677F2D0028138C /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA99BD4B21677F2D0028138C /* 13.jpg */; };
+		FA99BD5B21677F2D0028138C /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA99BD4C21677F2D0028138C /* 14.jpg */; };
+		FA99BD5C21677F2D0028138C /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA99BD4D21677F2D0028138C /* 2.jpg */; };
+		FA99BD5D21677F2D0028138C /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA99BD4E21677F2D0028138C /* 3.jpg */; };
+		FA99BD5E21677F2D0028138C /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA99BD4F21677F2D0028138C /* 4.jpg */; };
+		FA99BD5F21677F2D0028138C /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA99BD5021677F2D0028138C /* 5.jpg */; };
+		FA99BD6021677F2D0028138C /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA99BD5121677F2D0028138C /* 6.jpg */; };
+		FA99BD6121677F2D0028138C /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA99BD5221677F2D0028138C /* 7.jpg */; };
+		FA99BD6221677F2D0028138C /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA99BD5321677F2D0028138C /* 8.jpg */; };
+		FA99BD6321677F2D0028138C /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA99BD5421677F2D0028138C /* 9.jpg */; };
+		FA99BD6421677F2D0028138C /* banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA99BD5521677F2D0028138C /* banner.jpg */; };
+		FA99BD6921677F4F0028138C /* LinhKa.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA99BD6821677F4F0028138C /* LinhKa.plist */; };
+		FA99BD6B2167814D0028138C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA99BD6A2167814D0028138C /* Profile.swift */; };
+		FA99BD6D216781F30028138C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA99BD6C216781F30028138C /* DataManager.swift */; };
+		FA99BD6F2167844C0028138C /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA99BD6E2167844C0028138C /* Cell.swift */; };
+		FA99BD712167866B0028138C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA99BD702167866B0028138C /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +67,26 @@
 		FA99BD3421677F210028138C /* LinhKa_MVC_v3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinhKa_MVC_v3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA99BD3821677F210028138C /* LinhKa_MVC_v3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinhKa_MVC_v3UITests.swift; sourceTree = "<group>"; };
 		FA99BD3A21677F210028138C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA99BD4721677F2D0028138C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		FA99BD4821677F2D0028138C /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		FA99BD4921677F2D0028138C /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		FA99BD4A21677F2D0028138C /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		FA99BD4B21677F2D0028138C /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		FA99BD4C21677F2D0028138C /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		FA99BD4D21677F2D0028138C /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		FA99BD4E21677F2D0028138C /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		FA99BD4F21677F2D0028138C /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		FA99BD5021677F2D0028138C /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		FA99BD5121677F2D0028138C /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		FA99BD5221677F2D0028138C /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		FA99BD5321677F2D0028138C /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		FA99BD5421677F2D0028138C /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		FA99BD5521677F2D0028138C /* banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner.jpg; sourceTree = "<group>"; };
+		FA99BD6821677F4F0028138C /* LinhKa.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LinhKa.plist; sourceTree = "<group>"; };
+		FA99BD6A2167814D0028138C /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		FA99BD6C216781F30028138C /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		FA99BD6E2167844C0028138C /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		FA99BD702167866B0028138C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +137,11 @@
 		FA99BD1721677F210028138C /* LinhKa_MVC_v3 */ = {
 			isa = PBXGroup;
 			children = (
+				FA99BD4621677F2D0028138C /* Linh Ka s Photos */,
+				FA99BD6521677F310028138C /* Model */,
+				FA99BD6721677F3E0028138C /* View */,
+				FA99BD6621677F370028138C /* Controller */,
 				FA99BD1821677F210028138C /* AppDelegate.swift */,
-				FA99BD1A21677F210028138C /* ViewController.swift */,
-				FA99BD1C21677F210028138C /* Main.storyboard */,
 				FA99BD1F21677F210028138C /* Assets.xcassets */,
 				FA99BD2121677F210028138C /* LaunchScreen.storyboard */,
 				FA99BD2421677F210028138C /* Info.plist */,
@@ -123,6 +165,56 @@
 				FA99BD3A21677F210028138C /* Info.plist */,
 			);
 			path = LinhKa_MVC_v3UITests;
+			sourceTree = "<group>";
+		};
+		FA99BD4621677F2D0028138C /* Linh Ka s Photos */ = {
+			isa = PBXGroup;
+			children = (
+				FA99BD4721677F2D0028138C /* 1.jpg */,
+				FA99BD4821677F2D0028138C /* 10.jpg */,
+				FA99BD4921677F2D0028138C /* 11.jpg */,
+				FA99BD4A21677F2D0028138C /* 12.jpg */,
+				FA99BD4B21677F2D0028138C /* 13.jpg */,
+				FA99BD4C21677F2D0028138C /* 14.jpg */,
+				FA99BD4D21677F2D0028138C /* 2.jpg */,
+				FA99BD4E21677F2D0028138C /* 3.jpg */,
+				FA99BD4F21677F2D0028138C /* 4.jpg */,
+				FA99BD5021677F2D0028138C /* 5.jpg */,
+				FA99BD5121677F2D0028138C /* 6.jpg */,
+				FA99BD5221677F2D0028138C /* 7.jpg */,
+				FA99BD5321677F2D0028138C /* 8.jpg */,
+				FA99BD5421677F2D0028138C /* 9.jpg */,
+				FA99BD5521677F2D0028138C /* banner.jpg */,
+			);
+			path = "Linh Ka s Photos";
+			sourceTree = "<group>";
+		};
+		FA99BD6521677F310028138C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA99BD6821677F4F0028138C /* LinhKa.plist */,
+				FA99BD6A2167814D0028138C /* Profile.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FA99BD6621677F370028138C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA99BD1A21677F210028138C /* ViewController.swift */,
+				FA99BD702167866B0028138C /* DetailViewController.swift */,
+				FA99BD6E2167844C0028138C /* Cell.swift */,
+				FA99BD6C216781F30028138C /* DataManager.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FA99BD6721677F3E0028138C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA99BD1C21677F210028138C /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +321,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA99BD6021677F2D0028138C /* 6.jpg in Resources */,
+				FA99BD5E21677F2D0028138C /* 4.jpg in Resources */,
+				FA99BD5D21677F2D0028138C /* 3.jpg in Resources */,
+				FA99BD5B21677F2D0028138C /* 14.jpg in Resources */,
+				FA99BD5721677F2D0028138C /* 10.jpg in Resources */,
+				FA99BD5C21677F2D0028138C /* 2.jpg in Resources */,
+				FA99BD5A21677F2D0028138C /* 13.jpg in Resources */,
 				FA99BD2321677F210028138C /* LaunchScreen.storyboard in Resources */,
+				FA99BD5F21677F2D0028138C /* 5.jpg in Resources */,
+				FA99BD5921677F2D0028138C /* 12.jpg in Resources */,
+				FA99BD5621677F2D0028138C /* 1.jpg in Resources */,
+				FA99BD5821677F2D0028138C /* 11.jpg in Resources */,
+				FA99BD6321677F2D0028138C /* 9.jpg in Resources */,
+				FA99BD6221677F2D0028138C /* 8.jpg in Resources */,
+				FA99BD6921677F4F0028138C /* LinhKa.plist in Resources */,
+				FA99BD6121677F2D0028138C /* 7.jpg in Resources */,
 				FA99BD2021677F210028138C /* Assets.xcassets in Resources */,
 				FA99BD1E21677F210028138C /* Main.storyboard in Resources */,
+				FA99BD6421677F2D0028138C /* banner.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +365,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA99BD1B21677F210028138C /* ViewController.swift in Sources */,
+				FA99BD6D216781F30028138C /* DataManager.swift in Sources */,
+				FA99BD6F2167844C0028138C /* Cell.swift in Sources */,
+				FA99BD712167866B0028138C /* DetailViewController.swift in Sources */,
+				FA99BD6B2167814D0028138C /* Profile.swift in Sources */,
 				FA99BD1921677F210028138C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,25 +1,142 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G22010" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yxh-Q3-q1l">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Linh Ka-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LinhKa_MVC_v3" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="150" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8Es-Vy-iUd">
+                                <rect key="frame" x="-4" y="0.0" width="328" height="480"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <imageView key="tableHeaderView" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner.jpg" id="2es-gw-WaF">
+                                    <rect key="frame" x="0.0" y="64" width="328" height="214"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="150" id="fpv-9D-ZJL" customClass="Cell" customModule="LinhKa_MVC_v3" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="306" width="328" height="150"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fpv-9D-ZJL" id="flr-9i-xpL">
+                                            <rect key="frame" x="0.0" y="0.0" width="328" height="149"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="Aca-gZ-NMj" kind="push" identifier="DetailSegue" id="TfN-2q-HMP"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="8Es-Vy-iUd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="C8D-HV-j7C"/>
+                            <constraint firstItem="8Es-Vy-iUd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="av9-EO-8t7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8Es-Vy-iUd" secondAttribute="bottom" id="nui-1Z-GaK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8Es-Vy-iUd" secondAttribute="trailing" constant="-20" id="w2b-bc-yG9"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Linh Ka" id="BDu-Rh-bSo">
+                        <barButtonItem key="backBarButtonItem" title="Linh Ka Team" id="eOZ-Uw-JEA"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="myTableView" destination="8Es-Vy-iUd" id="JJv-ri-fgQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1187" y="305"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="5Lq-AV-FDB">
+            <objects>
+                <viewController id="Aca-gZ-NMj" customClass="DetailViewController" customModule="LinhKa_MVC_v3" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Ax-4E-dya"/>
+                        <viewControllerLayoutGuide type="bottom" id="N0x-H3-Ty5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SNK-sP-1yI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9cG-KT-ufs">
+                                <rect key="frame" x="-4" y="0.0" width="328" height="480"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Caption" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtq-Ak-3oB">
+                                <rect key="frame" x="16" y="20" width="288" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="U08-cU-ViR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9cG-KT-ufs" firstAttribute="top" secondItem="SNK-sP-1yI" secondAttribute="topMargin" id="1YE-7Q-djK"/>
+                            <constraint firstItem="9cG-KT-ufs" firstAttribute="leading" secondItem="SNK-sP-1yI" secondAttribute="leadingMargin" constant="-20" id="9WI-4P-Dpr"/>
+                            <constraint firstItem="rtq-Ak-3oB" firstAttribute="top" secondItem="1Ax-4E-dya" secondAttribute="bottom" id="BiO-rO-5It"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9cG-KT-ufs" secondAttribute="trailing" constant="-20" id="eJK-mf-laH"/>
+                            <constraint firstItem="N0x-H3-Ty5" firstAttribute="top" secondItem="9cG-KT-ufs" secondAttribute="bottom" id="nB4-eP-TEu"/>
+                            <constraint firstItem="rtq-Ak-3oB" firstAttribute="trailing" secondItem="SNK-sP-1yI" secondAttribute="trailingMargin" id="teY-nQ-yuU"/>
+                            <constraint firstItem="rtq-Ak-3oB" firstAttribute="leading" secondItem="SNK-sP-1yI" secondAttribute="leadingMargin" id="zgL-D1-flb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="3mY-pB-U4A">
+                        <barButtonItem key="backBarButtonItem" title="Linh Ka Team" id="N4G-Bb-7XZ"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="caption" destination="rtq-Ak-3oB" id="8M1-Rb-mG7"/>
+                        <outlet property="photo" destination="9cG-KT-ufs" id="xXN-Vy-UCw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="61h-3f-WhA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1654" y="305"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2IF-P6-2HT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yxh-Q3-q1l" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="p3K-sI-49n">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="PYv-Hp-uth"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iWg-zD-MfO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="696" y="305"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="banner.jpg" width="960" height="538"/>
+    </resources>
 </document>
